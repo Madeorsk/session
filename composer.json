@@ -1,0 +1,31 @@
+{
+    "name": "madeorsk/session",
+    "description": "Easy session handling in PHP.",
+    "type": "library",
+
+    "keywords": ["session"],
+    "homepage": "https://github.com/madeorsk/session",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Madeorsk",
+            "email": "madeorsk@protonmail.com",
+            "homepage":"https://madeorsk.com"
+        }
+    ],
+
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Session\\": "src/Session"
+        }
+    }
+}
